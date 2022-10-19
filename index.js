@@ -50,7 +50,6 @@ function compareGuess(range, randomizer) {
     if (guess >= min && guess <= max) {
       console.log()
       console.log()
-      console.log()
       console.log(`Your guess is: ${guess}`)
       console.log()
       console.log(`The actual guess is: ${randomizer}`)
@@ -65,12 +64,11 @@ function compareGuess(range, randomizer) {
         console.log()
         addPoints()
         console.log()
-        console.log(`Let us play again, you're doing a great job!`)
+        console.log(`Play again, you're doing a great job!`)
         console.log()
         compareGuess()
       } else {
         console.log(`Your guess is not correct`)
-        console.log()
         console.log()
         console.log()
         console.log(`Let us try again`)
@@ -111,7 +109,6 @@ function addPoints() {
 
   }
   console.log(`Your guess point is ${pointsInNumber}`)
-  console.log()
   console.log()
   if (pointsInNumber = 1) {
     newLevel()
